@@ -3,6 +3,7 @@ import {  NavLink, Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
+import Films from './components/Films/Films';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFond';
 import Posts from './components/Posts/Posts';
@@ -27,12 +28,14 @@ function App() {
         <li><NavLink activeClassName="activeLink" to="/contacts">Contacts</NavLink></li>
         <li><NavLink activeClassName="activeLink" to="/about">About</NavLink></li>
         <li><NavLink activeClassName="activeLink" to="/posts">Posts</NavLink></li>
+        <li><NavLink activeClassName="activeLink" to="/films">Films</NavLink></li>
       </ul>
       <Switch>
         
         <Route path="/contacts" component={Contacts} />
         <Route path="/about" component={About} />
         <Route path="/posts" component={Posts} />
+        <Route path="/films" component={Films} />
         <Route exact path="/" component={Home} />
         
         <Route path="/" component={NotFound} />
