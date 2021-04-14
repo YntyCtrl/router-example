@@ -1,15 +1,22 @@
 import {  Route } from "react-router";
-import FullPosts from "./FullFilm/FullFilm";
+import FilmList from "./FilmList/FilmList";
 
-import PostsList from "./FilmList/FilmList";
+
+
+import FullFilm from "./FullFilm/FullFilm";
 
 const Films = ({ match }) => {
+
+
+
+
+
   return (
     <div>
       {match.isExact ? (
-        <PostsList />
+        <FilmList />
       ) : (
-        <Route path="/films/:id" component={FullPosts} />
+        <Route path="/films/:id" component={FullFilm} />
       )}
     </div>
   );

@@ -6,7 +6,7 @@ const FilmList = () => {
   for (let i = 1; i <= 5; i++) {
     results.push(
       <li>
-        <Link to={"/films/" + i}>Post number</Link>
+        <Link to={"/films/" + i}>{i} Film</Link>
       </li>
     );
   }

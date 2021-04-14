@@ -6,7 +6,7 @@ const FullFilm = ({ match }) => {
     <div className={classes.FullFilm}>
       <div className={classes.main}>
         <Link to="/films">Back</Link>
-        <h1>Post {match.params.id}</h1>
+        <h1>{match.params.id} Film </h1>
       </div>
       <div className={classes.info}>
         <h2>Welcome to down town velley</h2>
