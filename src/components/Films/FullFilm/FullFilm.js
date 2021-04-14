@@ -9,10 +9,9 @@ const FullFilm = ({ match }) => {
         <h1>{match.params.id} Film </h1>
       </div>
       <div className={classes.info}>
-        <h2>Welcome to down town velley</h2>
+        <h2>Film Name</h2>
         <p>
-          Today is good day to write some stupid and nonsense text to fill
-          paragraph instead of copyion from google
+          Looding...
         </p>
       </div>
     </div>
