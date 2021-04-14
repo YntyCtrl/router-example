@@ -1,5 +1,5 @@
 
-import { Link, NavLink, Redirect, Route, Switch } from 'react-router-dom';
+import {  NavLink, Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
