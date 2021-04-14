@@ -4,7 +4,7 @@ import './App.css';
 import About from './components/About/About';
 import Contacts from './components/Contacts/Contacts';
 import Delivery from './components/Delivery/Delivery';
-import FastFood from './components/FastFood/FastFood';
+import FastFood from "./components/FastFood/FastFood";
 import Films from './components/Films/Films';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFond';
@@ -19,53 +19,93 @@ function App() {
   
   return (
     <div className="App">
-      <ul>
-        <li>
-          <NavLink to="/" exact activeClassName="activeLink">
+      <div className="background">
+        <li className="navli">
+          <NavLink
+            className="NavLink"
+            to="/"
+            exact
+            activeClassName="activeLink"
+          >
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/contacts">
-            Contacts
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/about">
-            About
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/posts">
-            Posts
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/films">
-            Films
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/search">
-            Search
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/fastfood">
-            FastFood
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/delivery">
-            Delivery
-          </NavLink>
-        </li>
-        <li>
-          <NavLink activeClassName="activeLink" to="/support">
-            Support
-          </NavLink>
-        </li>
-      </ul>
+        <ul className="navul">
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/contacts"
+            >
+              Contacts
+            </NavLink>
+          </li>
+
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/posts"
+            >
+              Posts
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/films"
+            >
+              Films
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/search"
+            >
+              Search
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/fastfood"
+            >
+              FastFood
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/delivery"
+            >
+              Delivery
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/support"
+            >
+              Support
+            </NavLink>
+          </li>
+          <li className="navli">
+            <NavLink
+              className="NavLink"
+              activeClassName="activeLink"
+              to="/about"
+            >
+              About
+            </NavLink>
+          </li>
+        </ul>
+      </div>
       <Switch>
         <Route path="/contacts" component={Contacts} />
         <Route path="/support" component={Support} />
