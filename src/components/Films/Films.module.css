@@ -1,0 +1,154 @@
+.Film{
+    color: white;
+    text-align: center;
+    
+    margin: auto;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.Film1Img{
+    background-image: url(../../images/Chudo-j.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film2Img{
+    background-image: url(../../images/skyline3.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film3Img{
+    background-image: url(../../images/the_boss_baby.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film4Img{
+    background-image: url(../../images/Monster_Hunter.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film5Img{
+    background-image: url(../../images/The_Dry.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film6Img{
+    background-image: url(../../images/Synchronic.png);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film7Img{
+    background-image: url(../../images/Intuition.png);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film8Img{
+    background-image: url(../../images/titanic.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film9Img{
+    background-image: url(../../images/The_Proposal.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film10Img{
+    background-image: url(../../images/Death_Race.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film11Img{
+    background-image: url(../../images/The_Longest_Ride.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}
+.Film12Img{
+    background-image: url(../../images/Passengers.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 140px;
+    margin-bottom: 3px;
+    
+    
+    padding: 0px;
+    
+    
+}

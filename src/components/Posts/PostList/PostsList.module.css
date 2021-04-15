@@ -1,0 +1,22 @@
+.postLink{
+    display: flex;
+    background-color: rgba(248, 248, 248, 0.89);
+    font-size: 20px;
+    
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+.PostsList{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.li{
+    margin: 10px;
+    list-style-type: none;
+
+}
