@@ -3,16 +3,28 @@
 
 
 .Link{
-    background-color: red;
+    background-color: rgba(112, 250, 0, 0.815);
     margin: 10px;
     padding: 15px;
     border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(124, 255, 1, 0.548);
     
     width: 140px;
     text-decoration: none;
+   
+    
+    align-items: center;
+    justify-content: center;
+    transition: 0.8s;
 }
+.Link:hover{
+    box-shadow: 0 0 5px 15px rgba(124, 255, 1, 0.548);
+}
+    
+
 li{
     display: flex;
+    
     
 }
 ul{

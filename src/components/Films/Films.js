@@ -56,7 +56,7 @@ const films = [
       {match.isExact ? (
         <FilmList film={films} />
       ) : (
-        <Route path="/films/:id" component={FullFilm} />
+        <Route film={films} path="/films/:id" component={FullFilm} />
       )}
     </div>
   );
